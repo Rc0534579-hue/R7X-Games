@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Gaming Website</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+            <!-- Logo Section-->
+            <div class="logo">
+                <img src="R7x.png" alt="R7X Gamer">
+                <h1>R7X Games</h1>
+            </div>
+             <!-- Navbar Section OVER-->
+
+             <!-- Search Section-->
+            <div class="search-box">
+                <span>🔍</span>
+                <input type="text" placeholder="Search Games...">
+            </div>
+            <!-- Search Section OVER-->
+
+            <!-- Navbar Section-->
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="Games_section.html" >Games</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Navbar Section OVER-->
+             <!--Notification-->
+             <div class="nav-icon">
+                <a href="#" class="notification">🔔</a>
+             </div>
+             <!--notification END-->
+             <!--Login-->
+             <div class="login-icon">
+               <a href="login.html">👤</a>
+              </div>
+              <!--Login Over-->
+
+        </header>
+        <main>
+            <section class="games-section">
+                <h2>Popular Games</h2>
+                <div class="games-container">
+
+                    <div class="game-card">
+                        <div class="slider">
+                            <!-- FREE FIRE -->
+                            <img id="ff-image" src="ff1.jpg" alt="Free Fire">
+                            <button class="prev" onclick="prevFF()">❮</button>
+                            <button class="next" onclick="nextFF()">❯</button>
+                        </div>
+                        <div class="game-info">
+                         <img src="ff_logo.png" class="ff_logo">
+                        <h3>Free Fire</h3>
+                        </div>
+                    </div>
+
+                     <div class="game-card">
+                        <div class="slider">
+                            <!-- BGMI-->
+                            <img id="bgmi-image" src="p1.jpg" alt="BGMI">
+                            <button class="prev" onclick="prevBGMI()">❮</button>
+                            <button class="next" onclick="nextBGMI()">❯</button>
+                        </div>
+                        <div class="game-info">
+                            <img src="bgmi_logo.webp" class="bgmi_logo">
+                        <h3>BGMI</h3>
+                        </div>
+                     </div>
+
+                     <div class="game-card">
+                        <div class="slider">
+                            <!-- COD-->
+                            <img id="cod-image" src="c1.avif" alt="Call of Duty">
+                            <button class="prev" onclick="prevCOD()">❮</button>
+                            <button class="next" onclick="nextCOD()">❯</button>
+                        </div>
+                        <div class="game-info">
+                            <img src="cod_logo.webp" class="cod_logo">
+                        <h3>COD</h3>
+                        </div>
+                     </div>
+
+                     <div class="game-card">
+                        <div class="slider">
+                            <!-- BGMI-->
+                            <img id="min-image" src="m1.jpg" alt="MINECRAFT">
+                            <button class="prev" onclick="prevMIN()">❮</button>
+                            <button class="next" onclick="nextMIN()">❯</button>
+                        </div>
+                        <div class="game-info">
+                            <img src="min_logo.jpg" class="min_logo">
+                        <h3>Minecraft</h3>
+                        </div>
+                     </div>
+                </div>
+            </section>  
+            <section class="games2">
+                <!--GTA 5-->
+                 <iframe class="game-video"
+                 src="https://www.youtube.com/embed/QdBZY2fkU-0/autoplay=1&mute=1&loop=1"></iframe>
+                 <div class="game-content">
+                    <img src="gta6.png" class="game-app">
+                    <div class="btns">
+                        <a href="#" class="download-btn">Download</a>
+                        <a href="#" class="share-btn">Share</a>
+                    </div>
+                 </div>
+            </section>
+            <!--Horza 6-->
+            <section class="games2">
+                <iframe class="game-video"
+                 src="https://www.youtube.com/embed/p1wFbZwegpk/autoplay=1&mute=1&loop=1"></iframe>
+                 <div class="game-content">
+                    <img src="forz6.png" class="game-app">
+                    <div class="btns">
+                        <a href="#" class="download-btn">Download</a>
+                        <a href="#" class="share-btn">Share</a>
+                    </div>
+                 </div>
+                </iframe>
+            </section>
+            <!--RESIDENT EVIL 9-->
+            <section class="games2">
+                <iframe class="game-video"
+                 src="https://www.youtube.com/embed/POz1-EmLsTY"></iframe>
+                 <div class="game-content">
+                    <img src="Resident_Evil(logo).avif" class="game-app">
+                    <div class="btns">
+                        <a href="#" class="download-btn">Download</a>
+                        <a href="#" class="share-btn">Share</a>
+                    </div>
+                 </div>
+                </iframe>
+            </section>
+            <!--BLACK MYTH WHOKONG-->
+            <section class="games2">
+                <iframe class="game-video"
+                 src="https://www.youtube.com/embed/u83VdXAVq08"></iframe>
+                 <div class="game-content">
+                    <img src="Black_mith(Logo).jpg" class="game-app">
+                    <div class="btns">
+                        <a href="#" class="download-btn">Download</a>
+                        <a href="#" class="share-btn">Share</a>
+                    </div>
+                 </div>
+                </iframe>
+            </section>
+            <!--GHOST OF YOTEI-->
+            <section class="games2">
+                <iframe class="game-video"
+                 src="https://www.youtube.com/embed/7z7kqwuf0a8"></iframe>
+                 <div class="game-content">
+                    <img src="Ghost_Totei(logo).avif" class="game-app">
+                    <div class="btns">
+                        <a href="#" class="download-btn">Download</a>
+                        <a href="#" class="share-btn">Share</a>
+                    </div>
+                 </div>
+                </iframe>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>R7X Games</h2>
+                    <p>Best Gaming Hub for GTA, Free Fire & More</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="#">
+                        <img src="Home(logo).png">Home</a>
+                    <a href="#">
+                        <img src="Game(logo).png">Games</a>
+                    <a href="#">
+                        <img src="Update(logo).png">Updates</a>
+                    <a href="#">
+                        <img src="contect(logo).png">Contect</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Follow Us</h3>
+                    <a href="#">
+                         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">Youtube</a>
+                    <a href="#">
+                         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">Instagram</a>
+                    <a href="#">
+                          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png">Discord</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                2026 R7X Gamers | All Rights Reserved
+            </div>
+
+
+            <!--FEATURED GAMES-->
+            <section class="featured-games">
+                <h2>Featured Games</h2>
+                <div class="g-container">
+                <div class="game-box">
+                    <img src="indiagame(logo).jpg">
+                    <h3>Uncharted the lost legacy</h3>
+                    <p>Open World Action Adventures Game</p>
+                    <button>Download</button>
+                </div>
+                <div class="game-box">
+                    <img src="godofragnarock.jpg">
+                    <h3>God of Ragnarock</h3>
+                    <p>Dangerous and Mythological Action Adventures Game</p>
+                    <button>Download</button>
+                </div>
+                <div class="game-box">
+                    <img src="Demon_Slayer.jpg">
+                    <h3>Demon Slayer -Kimetsu no Yaiba-The Hinokami Chronicles</h3>
+                    <p>Amine Based Game:- Demon vs Human Adventures Fight</p>
+                    <button>Download</button>
+                </div>
+                </div>
+            </section>
+
+            <!-- UPDATE PART-->
+             <section class="updates">
+                <h2>Latest Updates</h2>
+                <div class="update-card">
+                    <span>🔥 GTA 6 Trailer Released</span>
+                    <p>Ner gameplay footage offically reveled.</p>
+                </div>
+                <div class="update-card">
+                    <span>🎯 Free Fire Event Live</span>
+                    <p>New rewards and skins available now.</p>
+                </div>
+                <div class="update-card">
+                    <span>🏆BGMI Royal Pass</span>
+                    <p>Season rewards have updates.</p>
+                </div>
+             </section>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
